@@ -1,0 +1,11 @@
+2023-11-13 00:58:23.978 +08:00 [INF] Now listening on: http://localhost:5218
+2023-11-13 00:58:24.173 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-13 00:58:24.175 +08:00 [INF] Hosting environment: Development
+2023-11-13 00:58:24.175 +08:00 [INF] Content root path: C:\Users\Angelaire\OneDrive\Desktop\API\cs06Lab
+2023-11-13 00:58:26.082 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/index.html - -
+2023-11-13 00:58:27.262 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/index.html - - - 200 - text/html;charset=utf-8 1128.0132ms
+2023-11-13 00:58:27.492 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - -
+2023-11-13 00:58:27.498 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 5.2219ms
+2023-11-13 00:58:27.832 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - -
+2023-11-13 00:58:28.652 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 819.6509ms
+2023-11-13 01:09:07.170 +08:00 [INF] Application is shutting down...

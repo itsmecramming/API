@@ -1,0 +1,97 @@
+2023-11-11 14:25:52.144 +08:00 [INF] Now listening on: http://localhost:5218
+2023-11-11 14:25:52.285 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-11 14:25:52.286 +08:00 [INF] Hosting environment: Development
+2023-11-11 14:25:52.287 +08:00 [INF] Content root path: C:\Users\Angelaire\OneDrive\Desktop\API\cs06Lab
+2023-11-11 14:25:53.653 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/index.html - -
+2023-11-11 14:25:54.609 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/index.html - - - 200 - text/html;charset=utf-8 961.0912ms
+2023-11-11 14:25:54.655 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - -
+2023-11-11 14:25:54.688 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 32.9947ms
+2023-11-11 14:25:55.438 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - -
+2023-11-11 14:25:55.964 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 526.0922ms
+2023-11-11 14:26:27.920 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/Students - -
+2023-11-11 14:26:27.933 +08:00 [INF] Executing endpoint 'Student.Web.Api.Controllers.StudentsController.GetList (Student.Web.Api)'
+2023-11-11 14:26:27.982 +08:00 [INF] Route matched with {action = "GetList", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetList() on controller Student.Web.Api.Controllers.StudentsController (Student.Web.Api).
+2023-11-11 14:26:29.934 +08:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."StudentId", "p"."FirsName", "p"."LastName", "p"."MiddleName"
+FROM "Pupils" AS "p"
+2023-11-11 14:26:30.095 +08:00 [INF] Getting all list
+2023-11-11 14:26:30.108 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Student.Web.Api.Models.Pupil, Student.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-11 14:26:30.131 +08:00 [INF] Executed action Student.Web.Api.Controllers.StudentsController.GetList (Student.Web.Api) in 2141.1569ms
+2023-11-11 14:26:30.132 +08:00 [INF] Executed endpoint 'Student.Web.Api.Controllers.StudentsController.GetList (Student.Web.Api)'
+2023-11-11 14:26:30.161 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/Students - - - 200 - application/json;+charset=utf-8 2240.7742ms
+2023-11-11 14:27:19.930 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/Subjects - -
+2023-11-11 14:27:19.934 +08:00 [INF] Executing endpoint 'Student.Web.Api.Controllers.SubjectsController.GetList (Student.Web.Api)'
+2023-11-11 14:27:19.946 +08:00 [INF] Route matched with {action = "GetList", controller = "Subjects"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetList() on controller Student.Web.Api.Controllers.SubjectsController (Student.Web.Api).
+2023-11-11 14:27:20.018 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."Code", "s"."Title"
+FROM "Subjects" AS "s"
+2023-11-11 14:27:20.054 +08:00 [INF] Getting all list
+2023-11-11 14:27:20.058 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Student.Web.Api.Models.Subject, Student.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-11 14:27:20.067 +08:00 [INF] Executed action Student.Web.Api.Controllers.SubjectsController.GetList (Student.Web.Api) in 121.0707ms
+2023-11-11 14:27:20.068 +08:00 [INF] Executed endpoint 'Student.Web.Api.Controllers.SubjectsController.GetList (Student.Web.Api)'
+2023-11-11 14:27:20.071 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/Subjects - - - 200 - application/json;+charset=utf-8 141.1701ms
+2023-11-11 14:27:21.935 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/Subjects - -
+2023-11-11 14:27:21.936 +08:00 [INF] Executing endpoint 'Student.Web.Api.Controllers.SubjectsController.GetList (Student.Web.Api)'
+2023-11-11 14:27:21.936 +08:00 [INF] Route matched with {action = "GetList", controller = "Subjects"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetList() on controller Student.Web.Api.Controllers.SubjectsController (Student.Web.Api).
+2023-11-11 14:27:22.034 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."Code", "s"."Title"
+FROM "Subjects" AS "s"
+2023-11-11 14:27:22.035 +08:00 [INF] Getting all list
+2023-11-11 14:27:22.035 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Student.Web.Api.Models.Subject, Student.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-11 14:27:22.036 +08:00 [INF] Executed action Student.Web.Api.Controllers.SubjectsController.GetList (Student.Web.Api) in 99.4933ms
+2023-11-11 14:27:22.036 +08:00 [INF] Executed endpoint 'Student.Web.Api.Controllers.SubjectsController.GetList (Student.Web.Api)'
+2023-11-11 14:27:22.037 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/Subjects - - - 200 - application/json;+charset=utf-8 101.4054ms
+2023-11-11 14:28:54.067 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5218/Grades application/json 179
+2023-11-11 14:28:54.068 +08:00 [INF] Executing endpoint 'Student.Web.Api.Controllers.GradesController.Post (Student.Web.Api)'
+2023-11-11 14:28:54.082 +08:00 [INF] Route matched with {action = "Post", controller = "Grades"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Student.Web.Api.Dto.GradeDto) on controller Student.Web.Api.Controllers.GradesController (Student.Web.Api).
+2023-11-11 14:28:54.331 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (Size = 3), @p2='?' (Size = 3), @p3='?' (Size = 8), @p4='?' (Size = 6), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Grades" ("FinalGrade", "FinalTerm", "MidTerm", "PupilId", "Remarks", "SubjectId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING "Id";
+2023-11-11 14:28:54.371 +08:00 [INF] Executing OkObjectResult, writing value of type 'Student.Web.Api.Dto.GradeDto'.
+2023-11-11 14:28:54.373 +08:00 [INF] Executed action Student.Web.Api.Controllers.GradesController.Post (Student.Web.Api) in 291.296ms
+2023-11-11 14:28:54.374 +08:00 [INF] Executed endpoint 'Student.Web.Api.Controllers.GradesController.Post (Student.Web.Api)'
+2023-11-11 14:28:54.374 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5218/Grades application/json 179 - 200 - application/json;+charset=utf-8 306.5253ms
+2023-11-11 14:29:01.157 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5218/Grades application/json 179
+2023-11-11 14:29:01.157 +08:00 [INF] Executing endpoint 'Student.Web.Api.Controllers.GradesController.Post (Student.Web.Api)'
+2023-11-11 14:29:01.158 +08:00 [INF] Route matched with {action = "Post", controller = "Grades"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Student.Web.Api.Dto.GradeDto) on controller Student.Web.Api.Controllers.GradesController (Student.Web.Api).
+2023-11-11 14:29:01.197 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (Size = 3), @p2='?' (Size = 3), @p3='?' (Size = 8), @p4='?' (Size = 6), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Grades" ("FinalGrade", "FinalTerm", "MidTerm", "PupilId", "Remarks", "SubjectId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING "Id";
+2023-11-11 14:29:01.202 +08:00 [INF] Executing OkObjectResult, writing value of type 'Student.Web.Api.Dto.GradeDto'.
+2023-11-11 14:29:01.202 +08:00 [INF] Executed action Student.Web.Api.Controllers.GradesController.Post (Student.Web.Api) in 44.3457ms
+2023-11-11 14:29:01.203 +08:00 [INF] Executed endpoint 'Student.Web.Api.Controllers.GradesController.Post (Student.Web.Api)'
+2023-11-11 14:29:01.204 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5218/Grades application/json 179 - 200 - application/json;+charset=utf-8 47.1026ms
+2023-11-11 14:42:53.374 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/index.html - -
+2023-11-11 14:42:53.419 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/index.html - - - 200 - text/html;charset=utf-8 45.0594ms
+2023-11-11 14:42:53.499 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/index.html - -
+2023-11-11 14:42:53.505 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/index.html - - - 200 - text/html;charset=utf-8 5.6751ms
+2023-11-11 14:42:53.680 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - -
+2023-11-11 14:42:53.681 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.9331ms
+2023-11-11 14:42:56.171 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - -
+2023-11-11 14:42:56.199 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 27.9456ms
+2023-11-11 15:14:24.017 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/index.html - -
+2023-11-11 15:14:24.032 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/index.html - - - 200 - text/html;charset=utf-8 14.8438ms
+2023-11-11 15:14:24.057 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - -
+2023-11-11 15:14:24.058 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 1.1036ms
+2023-11-11 15:14:24.391 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - -
+2023-11-11 15:14:24.414 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 22.0806ms
+2023-11-11 15:14:27.530 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/index.html - -
+2023-11-11 15:14:27.548 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/index.html - - - 200 - text/html;charset=utf-8 18.0382ms
+2023-11-11 15:14:27.588 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - -
+2023-11-11 15:14:27.589 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3634ms
+2023-11-11 15:14:27.765 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - -
+2023-11-11 15:14:27.783 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 17.7656ms
+2023-11-11 15:14:29.772 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/index.html - -
+2023-11-11 15:14:29.805 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/index.html - - - 200 - text/html;charset=utf-8 32.6363ms
+2023-11-11 15:14:29.902 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - -
+2023-11-11 15:14:29.902 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3804ms
+2023-11-11 15:14:30.105 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - -
+2023-11-11 15:14:30.122 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 16.3492ms
+2023-11-11 15:14:36.158 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/index.html - -
+2023-11-11 15:14:36.176 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/index.html - - - 200 - text/html;charset=utf-8 17.8093ms
+2023-11-11 15:14:36.427 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - -
+2023-11-11 15:14:36.434 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 6.1918ms
+2023-11-11 15:14:36.611 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - -
+2023-11-11 15:14:36.655 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5218/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 43.6104ms
